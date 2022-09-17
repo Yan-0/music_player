@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-class Library extends StatelessWidget {
-  const Library({Key? key}) : super(key: key);
+class PlaylistScreen extends StatelessWidget {
+  const PlaylistScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
