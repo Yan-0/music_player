@@ -14,21 +14,21 @@ class Song {
   static List<Song> songs = [
     Song(
       title: 'Mood',
+      description: '24kGoldn',
       url: 'assets/music/24kGoldn - Mood Remix.m4a',
       coverUrl: "assets/images/1.jpg",
-      description: 'Mood Remix By 24kGoldn',
     ),
     Song(
       title: "It's You",
+      description: "Ali Gatie",
       url: "assets/music/Ali Gatie - It's You.m4a",
       coverUrl: "assets/images/2.jpg",
-      description: "It's You By Ali Gatie",
     ),
     Song(
       title: 'Sing Me To Sleep',
+      description: 'Alan Walker',
       url: 'assets/music/Alan Walker - Sing me to sleep.m4a',
       coverUrl: "assets/images/3.jpg",
-      description: 'Sing Me To Sleep By Alan Walker',
     )
   ];
 }
