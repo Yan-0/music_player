@@ -6,7 +6,7 @@ class SongScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      children: [Icon(Icons.abc_sharp), Icon(Icons.music_note)],
+      children: [],
     );
   }
 }
