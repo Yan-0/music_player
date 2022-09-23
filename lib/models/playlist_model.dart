@@ -11,17 +11,17 @@ class Playlist {
     Playlist(
       title: 'Lo-Fi Playlist',
       songs: Song.songs,
-      imageUrl: "assets/images/1.jpg",
+      imageUrl: "assets/images/lofi.jfif",
     ),
     Playlist(
-      title: "Rock and Roll",
+      title: "Rock and Roll Playlist",
       songs: Song.songs,
-      imageUrl: "assets/images/2.jpg",
+      imageUrl: "assets/images/rNr.jpg",
     ),
     Playlist(
       title: 'Hype Playlist',
       songs: Song.songs,
-      imageUrl: "assets/images/3.jpg",
+      imageUrl: "assets/images/hype.jpg",
     )
   ];
 }
