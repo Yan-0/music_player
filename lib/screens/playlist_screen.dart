@@ -36,6 +36,7 @@ class PlaylistScreen extends StatelessWidget {
                 _PlaylistInformation(playlist: playlist),
                 const SizedBox(height: 30),
                 const _PlayOrShuffleSwitch(),
+                const SizedBox(height: 10),
                 _PlaylistSongs(playlist: playlist),
               ],
             ),
@@ -112,7 +113,7 @@ class _PlayOrShuffleSwitchState extends State<_PlayOrShuffleSwitch> {
         width: width,
         decoration: BoxDecoration(
           color: Colors.white,
-          borderRadius: BorderRadius.circular(25),
+          borderRadius: BorderRadius.circular(15),
         ),
         child: Stack(
           children: [
@@ -121,10 +122,10 @@ class _PlayOrShuffleSwitchState extends State<_PlayOrShuffleSwitch> {
               left: _isPlay ? 0 : width * 0.45,
               child: Container(
                 height: 50,
-                width: width * 0.4665,
+                width: width * 0.4666,
                 decoration: BoxDecoration(
                   color: Colors.blue,
-                  borderRadius: BorderRadius.circular(25),
+                  borderRadius: BorderRadius.circular(15),
                 ),
               ),
             ),
